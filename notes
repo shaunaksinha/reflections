@@ -1,0 +1,6 @@
+GIT COMMANDS
+
+git diff <commit id 1> <commit id 2>
+git diff --stat	: gives statistics related to commits
+git log: gives shaid and other details relating to each commit
+git checkout <commit id>: get to a snapshot of the rpo when this commit was made 
