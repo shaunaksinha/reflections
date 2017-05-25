@@ -4,4 +4,12 @@ Diagrams help one to visualize the entire sequence of commits in a sequential ma
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging 2 branches together helps get all of the commits from both branches onto a single branch and also sorts them by their timestamps.
-The diagram helps us to visualize how the commits are organised in sequential manner.  
+The diagram helps us to visualize how the commits are organised in sequential manner.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+Auto-merging saves time in situations where the merge strategy is obvious.
+Manual merges take more time.
+Cons:
+Git might get it wrong and then the code will be messed up.
+Manual merges are better here.  
