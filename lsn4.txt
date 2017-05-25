@@ -6,4 +6,9 @@ Why might you want to always pull changes manually rather than having Git automa
 There is a possibility that broken code is pushed to github and you do not want to pull it before tests are run on CI server. Only after all tests pass, you can be sure that the code is working and only then choose to pull it to your local.
 Also, if you are working on a feature on your local machine which relies on a particular version of the codebase, you do not want that version changing as and when people push to github. This would make it dofficult for you to develop your code alongside other people in the team.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are referred to repositories that are cloned onto your github account from another person's github account.
+Clones are copies of repositories that you get from your github account by running 'git clone' command in terminal.
+Branches are different chains of commits that have a common parent at some point in your repository.
+
 
