@@ -1,3 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work local?
+In situations where there is a common codebase being worked on by multiple people. Everybode can get access to the shanges just by doing a git pull from the remote.
+Also, keeping the remote repo adds some security since you can still get back your recent work if your machine conks off,
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+There is a possibility that broken code is pushed to github and you do not want to pull it before tests are run on CI server. Only after all tests pass, you can be sure that the code is working and only then choose to pull it to your local.
+Also, if you are working on a feature on your local machine which relies on a particular version of the codebase, you do not want that version changing as and when people push to github. This would make it dofficult for you to develop your code alongside other people in the team.
 
 
