@@ -1,0 +1,7 @@
+How do the diagrams help you visualize the branch structure?
+Diagrams help one to visualize the entire sequence of commits in a sequential manner. It also helps to understand which commits are unreachable.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging 2 branches together helps get all of the commits from both branches onto a single branch and also sorts them by their timestamps.
+The diagram helps us to visualize how the commits are organised in sequential manner.  
