@@ -11,4 +11,5 @@ Forks are referred to repositories that are cloned onto your github account from
 Clones are copies of repositories that you get from your github account by running 'git clone' command in terminal.
 Branches are different chains of commits that have a common parent at some point in your repository.
 
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It helps you to get info about your local branch against the remote (stored locally) whenever you do not have internet access.
