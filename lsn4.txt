@@ -21,3 +21,8 @@ It helps you to get info about your local branch against the remote (stored loca
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without using Git or Github, it would be very hard to collaborate. Manually merging changes in common files would be very hard and time-consuming.
 I don't think any task would be easier without using these tools.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I would want to keep changes in a separate branch whenever I am trying out experimental stuff.
+The advantage of directly modifying master and pushing is that it is faster. But the disadvantage is that your code might break something and also you don't get any feedback. In case of creating a separate branch, pulling changes, merging, pushing to remote and finally creating a pull request allows other colleagues to review your work.
